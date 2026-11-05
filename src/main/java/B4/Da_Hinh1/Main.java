@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-
+        //Tạo dánh sách chưa các phương tiện
         List<Vehicle> vehicles = new ArrayList<>();
         vehicles.add(new Car("C01", "Toyota", 120, 4));
         vehicles.add(new Motorbike("M01", "Honda", 80, 125));
